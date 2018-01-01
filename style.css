@@ -1,0 +1,154 @@
+html {
+  font-size: 1em;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.5rem;
+  color: #ccc;
+  background-color: #333;
+  margin: 0;
+  -webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+
+a {
+  color: #0af;
+}
+
+blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+blockquote p {
+  padding: 0 1rem;
+  font-family: 'Merriweather', serif;
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 2.25rem;
+
+}
+
+h1 {
+  padding: 0 1rem;
+  margin: 4rem 0;
+  font-weight: normal;
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+}
+
+h1 span {
+  color: #999;
+}
+
+h2 {
+  padding: 0 1rem;
+  margin: 1rem 0;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #999;
+}
+
+p {
+  padding: 0 1rem;
+  margin: 1rem 0;
+}
+
+p.meta {
+  margin: 1rem 0 4rem 0;
+  color: #999;
+}
+
+ul.footer {
+  margin: 4rem 0 1rem 0;
+}
+
+ul, ol{
+  padding: 0 1rem;
+  margin: 1rem 0;
+  list-style: none;
+  color: #999;
+}
+
+ul li {
+  display: inline-block;
+  margin: 0 1rem 0 0;
+  font-weight: 800;
+}
+
+ol li {
+  margin: 0 0 .5rem 0;
+}
+
+ol li a,
+h2 a {
+  font-weight: 800;
+}
+
+@media all and (min-width: 640px) {
+  h1, h2, h3, h4, p, ul, ol {
+    padding: 0 8rem;
+  }
+  blockquote p {
+    padding: 0 4rem;
+  }
+}
+
+@media all and (min-width: 960px) {
+  h1, h4 {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+  h1, h2, h3, h4, p, ul, ol {
+    padding: 0 16rem;
+  }
+  blockquote p {
+    padding: 0 11rem;
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+}
+
+@media all and (min-width: 1280px) {
+  h1, h2, h3, h4, p, ul, ol {
+    padding: 0 24rem;
+  }
+  blockquote p {
+    padding: 0 18rem;
+  }
+}
+
+@media all and (min-width: 1600px) {
+  h1, h2, h3, h4, p, ul, ol {
+    padding: 0 32rem;
+  }
+  blockquote p {
+    padding: 0 25rem;
+  }
+}
+
+@media all and (min-width: 1920px) {
+  h1, h2, h3, h4, p, ul, ol {
+    padding: 0 40rem;
+  }
+  blockquote p {
+    padding: 0 32rem;
+  }
+}
+
+@media all and (min-width: 2240px) {
+  h1, h2, h3, h4, p, ul, ol {
+    padding: 0 48rem;
+  }
+  blockquote p {
+    padding: 0 39rem;
+  }
+}
