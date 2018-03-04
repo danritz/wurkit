@@ -1,5 +1,5 @@
 html {
-  font-size: 1em;
+  font-size: 16px;
 }
 
 * {
@@ -7,15 +7,16 @@ html {
 }
 
 body {
-  font-family: 'Merriweather Sans', sans-serif;
+  font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
   font-size: 1rem;
   font-weight: 300;
   line-height: 1.5rem;
   color: #aaa;
   background-color: #222;
-  margin: 0;
   -webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
+  max-width: 768px;
+  margin: 0 auto;
 }
 
 a {
@@ -28,18 +29,18 @@ blockquote {
 }
 
 blockquote p {
-  padding: 0 1rem;
-  font-family: 'Merriweather', serif;
+  font-family: 'IBM Plex Serif', 'Georgia', Times, serif;
   font-size: 1.5rem;
   font-weight: 300;
   line-height: 2.25rem;
   color: #fff;
+  padding: 0 1rem;
 }
 
 h1 {
   padding: 0 1rem;
   margin: 4rem 0;
-  font-weight: normal;
+  font-weight: 300;
   font-size: 1.5rem;
   line-height: 2.25rem;
   color: #fff;
@@ -49,10 +50,14 @@ h1 span {
   color: #888;
 }
 
+h1 strong {
+  font-weight: 800;
+}
+
 h2 {
   padding: 0 1rem;
   margin: 1rem 0;
-  font-weight: normal;
+  font-weight: 300;
   font-size: 1rem;
   line-height: 1.5rem;
   color: #888;
@@ -94,62 +99,13 @@ h2 a {
   font-weight: 800;
 }
 
-@media all and (min-width: 640px) {
-  h1, h2, h3, h4, p, ul, ol {
-    padding: 0 8rem;
-  }
-  blockquote p {
-    padding: 0 4rem;
-  }
-}
-
-@media all and (min-width: 960px) {
-  h1, h4 {
+@media all and (min-width: 1024px) {
+  h1 {
     font-size: 2rem;
     line-height: 3rem;
   }
-  h1, h2, h3, h4, p, ul, ol {
-    padding: 0 16rem;
-  }
   blockquote p {
-    padding: 0 11rem;
     font-size: 2rem;
     line-height: 3rem;
-  }
-}
-
-@media all and (min-width: 1280px) {
-  h1, h2, h3, h4, p, ul, ol {
-    padding: 0 24rem;
-  }
-  blockquote p {
-    padding: 0 18rem;
-  }
-}
-
-@media all and (min-width: 1600px) {
-  h1, h2, h3, h4, p, ul, ol {
-    padding: 0 32rem;
-  }
-  blockquote p {
-    padding: 0 25rem;
-  }
-}
-
-@media all and (min-width: 1920px) {
-  h1, h2, h3, h4, p, ul, ol {
-    padding: 0 40rem;
-  }
-  blockquote p {
-    padding: 0 32rem;
-  }
-}
-
-@media all and (min-width: 2240px) {
-  h1, h2, h3, h4, p, ul, ol {
-    padding: 0 48rem;
-  }
-  blockquote p {
-    padding: 0 39rem;
   }
 }
