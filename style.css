@@ -20,7 +20,17 @@ body {
 }
 
 a {
+  text-decoration: none;
+}
+
+a:link, a:visited {
   color: #0af;
+  transition: color .2s ease-in-out;
+}
+
+a:hover, a:active {
+  color: #6DF;
+  transition: color .2s ease-in-out;
 }
 
 blockquote {
@@ -97,6 +107,10 @@ ol li {
 ol li a,
 h2 a {
   font-weight: 800;
+}
+
+a.more {
+
 }
 
 @media all and (min-width: 1024px) {
